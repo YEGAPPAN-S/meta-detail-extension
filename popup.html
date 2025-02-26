@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Extractor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 15px;
+            width: 350px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .container {
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td {
+            font-size: 14px;
+            color: #555;
+            word-wrap: break-word;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Meta Extractor</h2>
+    
+    <div class="container">
+        <table>
+            <tr>
+                <th>Meta Data</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td><strong>Title:</strong></td>
+                <td id="metaTitle"></td>
+            </tr>
+            <tr>
+                <td><strong>Title Words:</strong></td>
+                <td id="titleWordCount"></td>
+            </tr>
+            <tr>
+                <td><strong>Title Chars:</strong></td>
+                <td id="titleCharCount"></td>
+            </tr>
+            <tr>
+                <td><strong>Description:</strong></td>
+                <td id="metaDescription"></td>
+            </tr>
+            <tr>
+                <td><strong>Desc Words:</strong></td>
+                <td id="descWordCount"></td>
+            </tr>
+            <tr>
+                <td><strong>Desc Chars:</strong></td>
+                <td id="descCharCount"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
