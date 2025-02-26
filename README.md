@@ -21,11 +21,12 @@ The **Meta Detail Checker** Chrome extension automatically checks the **Meta Tit
 - Click the extension icon from your Chrome toolbar.
 - The extension will automatically fetch and display the **Meta Title**, **Meta Description**, **Word Count**, and **Character Count** for the page.
 
-## Requirements
-- Chrome browser version 90 or later.
-
 ## How It Works
+
 1. The extension is activated when you click on its icon in the Chrome toolbar.
 2. It extracts the **Meta Title** and **Meta Description** from the page.
 3. The extension displays the **word count** and **character count** for both the **Meta Title** and **Meta Description** to help optimize them for SEO.
 4. The results are displayed in a user-friendly popup.
+
+## Sample Image
+<img width="396" alt="image" src="https://github.com/user-attachments/assets/556b7a33-940b-4da6-b98c-9587158d740e" />
